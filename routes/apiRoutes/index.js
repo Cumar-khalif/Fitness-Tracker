@@ -11,10 +11,16 @@ router.get("/api/workouts", (req, res) => {
 })
 
 // getwourkoutrange
-router.get("/api/workouts/range", (req, res) => {
+router.get("/api/workouts/range", async (req, res) => {
 
     // aggregate sum of values
-    const workOut = await Workout.aggregate()
+    const workOut = await Workout.aggregate([{
+      $addFields: {
+        totalDuration: {
+          $sum: "$exercises.duration",
+        },
+      },
+    },])
 
     Workout.find({})
     .then(result => {
