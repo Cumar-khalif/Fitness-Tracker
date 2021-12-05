@@ -1,4 +1,4 @@
-# Unit 18 Nosql : Workout Tracker
+#  Nosql : Workout Tracker
 
 I created a Fitness tracker that allows users to keep up with their daily workout.
 
@@ -18,7 +18,9 @@ I can also be able to track the name, type, weight, sets, reps, and duration of 
 
 ## Contributions
 Heroku: https://warm-oasis-60682.herokuapp.com/
+
 Linkdln: https://www.linkedin.com/in/omar-sheikh-khalif-9352701b9/
+
 ## Credit
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
